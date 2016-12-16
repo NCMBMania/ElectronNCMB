@@ -1,0 +1,21 @@
+{
+  "name": "ncmb_desktop",
+  "description": "",
+  "main": "main.js",
+  "authors": [
+    "Atsushi Nakatsugawa <atsushi@moongift.jp>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "vendors",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "vue": "^2.1.6"
+  }
+}
