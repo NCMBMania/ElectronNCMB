@@ -18,6 +18,10 @@
             </div>
             <div v-if="ncmb">
               <button v-on:click="remove_keys" class="btn btn-info">設定の変更</button>&nbsp;
+              <div v-if="hasRole('Administrator')">
+                <p>管理者用機能はこちら</p>
+                <button>ユーザ管理（ダミー）</button>
+              </div>
             </div>
             <div v-else>
               <p>アプリケーションキー、クライアントキーの取得は<a v-on:click="open_mbaas">管理画面</a>より行えます。</p>
